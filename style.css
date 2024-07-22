@@ -273,19 +273,32 @@ section{
 }
 
 /* professional */
+/* Communication */
 .about .row .box:nth-child(2) .progress:nth-child(2) .bar span{
+    width: 85%;
+}
+/* Team Work */
+.about .row .box:nth-child(2) .progress:nth-child(3) .bar span{
     width: 80%;
 }
-.about .row .box:nth-child(2) .progress:nth-child(3) .bar span{
+/* Time Managment */
+.about .row .box:nth-child(2) .progress:nth-child(4) .bar span{
+    width: 80%;
+}
+/* Leadership */
+.about .row .box:nth-child(2) .progress:nth-child(5) .bar span{
+    width: 80%;
+}
+/* Coding Skills */
+.about .row .box:nth-child(3) .progress:nth-child(2) .bar span{
     width: 93.3%;
 }
-.about .row .box:nth-child(2) .progress:nth-child(4) .bar span{
+.about .row .box:nth-child(3) .progress:nth-child(3) .bar span{
     width: 84.4%;
 }
-.about .row .box:nth-child(2) .progress:nth-child(5) .bar span{
+.about .row .box:nth-child(3) .progress:nth-child(4) .bar span{
     width: 70%;
 }
-
 .about .row .box .exp-box{
     padding: 0 1.8rem;
     margin-top: 1rem;
@@ -563,7 +576,12 @@ section{
     transform: rotate(-180deg);
 
 }
-
+.content .share1{
+    border: 2px solid orange;
+}
+.content .share1 a:hover{
+    color: var(--primary-text-color);
+}
 .home .share {
     position: absolute;
     left: 60%; /* Adjust the horizontal position */
