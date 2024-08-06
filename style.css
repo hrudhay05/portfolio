@@ -243,6 +243,28 @@ section{
     display: flex;
     justify-content: space-between;
 }
+.progress h3 {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.progress h3 span {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-left: 10px; /* Adjust spacing between text and icon */
+    color: var(--secondary-text-color); /* Text color */
+    font-size: 1.6rem; /* Font size */
+}
+
+.progress h3 span img {
+    width: 25px; /* Adjust width of the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 5px; /* Adjust spacing between text and icon */
+}
+.h31{
+    color: orange;;
+}
+
 .about .row .box .progress .bar{
     height: 2.5rem;
     border-radius: .5rem;
